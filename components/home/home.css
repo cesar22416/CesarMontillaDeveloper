@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Roboto+Slab:wght@100..900&display=swap');
+*{
+   
+    padding: 0 auto;
+}
+
+
+.homeDev{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.homeparraf{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.homeimg{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+}
+.redes{
+    display:flex;
+    width: 50%;
+    justify-content: flex-start;
+    margin-top: 35px;
+    
+}
+
+.cv{
+    display:flex;
+    width: 50%;
+    justify-content: flex-start;
+    
+}
+.parrafohome{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-start;
+    
+}
+
+.buttonhome{
+    margin-left: 150px;
+}
+
+.imgredes{
+    margin-right: 35px;
+}
+.buttonhome{
+    margin-right: 35px;
+    background: red;
+}
+.hometext{
+    font-family: "Roboto Slab", serif;
+}
+
+@media (max-width: 1000px) {
+    .homeDev {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%; 
+    }
+    .homeimg {
+        width: 100%; 
+        margin-right: 0; 
+        justify-content: center; 
+        align-items: center; 
+       
+    }
+    .imgava{
+        width:30%;
+    }
+    .homeparraf{
+        width: 100%;
+
+    } 
+   
+    .redes{
+        display: flex;
+        jjustify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .cv{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        
+    }
+    .parrafohome{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media (max-width:11350px) {
+    .imgava{
+        width: 80%;
+    }
+    
+}

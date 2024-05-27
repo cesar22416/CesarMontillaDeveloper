@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Roboto+Slab:wght@100..900&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navall {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.navlogo {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #35FFA8;
+}
+
+.navmonder {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Long Cang", cursive;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Roboto Slab", serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.homeparraf {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
+
+    .navmonder {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navall {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-link {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .navlogo {
+        width: 10%;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    .logo {
+        width: 100%;
+        font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+    }
+}

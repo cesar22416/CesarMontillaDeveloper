@@ -24,7 +24,7 @@ const Home = () => {
       </div>
       
       <div className='homeimg'>
-        <img className='imgava' src="/Img/ava.png" alt="" />
+        <img className='imgava' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/ava.png?alt=media&token=3b0df4f0-a8f9-43cb-bd92-6e178e036d4e" alt="" />
       </div>
     </div>
   );

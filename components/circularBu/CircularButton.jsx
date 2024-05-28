@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const CircularButton = ({ onClick, color, textColor, text, icon }) => {
+const CircularButton = ({ onClick, color, textColor, text, icon, margin, padding }) => {
   const buttonStyle = {
     backgroundColor: color,
     color: textColor,
@@ -13,6 +13,8 @@ const CircularButton = ({ onClick, color, textColor, text, icon }) => {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    margin: margin,
+    padding: padding,
   };
 
   return (

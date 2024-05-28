@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+.Software{
+    display: flex;
+    justify-content: flex-start;
+}
+.buttoncir{
+    margin-right: 150px;
+}
+
+.servicemon{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 30px;
+}
+.serviuno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+}
+
+
+.imgservi{
+    width: 80%;
+    
+    
+}
+
+.Software{
+    display: flex;
+
+}
+
+.styled-hr {
+    border: none;
+    border-top: 3px solid black; /* Cambia el color y el grosor según tus necesidades */
+    margin: -1px ; /* Ajusta el margen superior e inferior */
+    width: 80%; /* Ajusta el ancho */
+  }
+  
+  .servimg{
+    display: flex;
+    justify-content: center;
+  }
+  .hrbase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    
+
+  }
+  
+  
+  @media (max-width: 1000px) {
+
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    
+  }
+    
+  .servicemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px; 
+  }
+
+  .servicetres,
+  .servicedos,
+  .serviceuno {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  .hruno{
+    width: 100%;
+   
+  }
+  }

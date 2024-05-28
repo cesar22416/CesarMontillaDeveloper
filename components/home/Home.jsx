@@ -17,9 +17,9 @@ const Home = () => {
         </div>
         <div className='redes'>
         <Button  color="#FAFF01" text="Redes" />
-          <img className='imgredes' src="../../public/Img/icons8-facebook.gif" alt="Facebook" />
-          <img className='imgredes' src="../../public/Img/icons8-github.gif" alt="GitHub" />
-          <img className='imgredes' src="../../public/Img/icons8-instagram.gif" alt="Instagram" />
+          <img className='imgredes' src="/Img/icons8-facebook.gif" alt="Facebook" />
+          <img className='imgredes' src="/Img/icons8-github.gif" alt="GitHub" />
+          <img className='imgredes' src="/Img/icons8-instagram.gif" alt="Instagram" />
         </div>
       </div>
       

@@ -17,9 +17,9 @@ const Home = () => {
         </div>
         <div className='redes'>
         <Button  color="#FAFF01" text="Redes" />
-          <img className='imgredes' src="/Img/icons8-facebook.gif" alt="Facebook" />
-          <img className='imgredes' src="/Img/icons8-github.gif" alt="GitHub" />
-          <img className='imgredes' src="/Img/icons8-instagram.gif" alt="Instagram" />
+          <img className='imgredes' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/icons8-facebook.gif?alt=media&token=1f1a5fea-93fe-43c4-ba17-593242a575ca" alt="Facebook" />
+          <img className='imgredes' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/icons8-github.gif?alt=media&token=434f52dc-d738-4716-a138-afb6d7f23bdd" alt="GitHub" />
+          <img className='imgredes' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/icons8-github.gif?alt=media&token=434f52dc-d738-4716-a138-afb6d7f23bdd" alt="Instagram" />
         </div>
       </div>
       

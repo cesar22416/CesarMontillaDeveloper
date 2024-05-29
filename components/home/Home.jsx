@@ -18,8 +18,13 @@ const Home = () => {
         <div className='redes'>
         <Button  color="#FAFF01" text="Redes" />
           <img className='imgredes' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/icons8-facebook.gif?alt=media&token=1f1a5fea-93fe-43c4-ba17-593242a575ca" alt="Facebook" />
+         
+          <a href="https://github.com/cesar22416" target="_blank" rel="noopener noreferrer">
           <img className='imgredes' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/icons8-github.gif?alt=media&token=434f52dc-d738-4716-a138-afb6d7f23bdd" alt="GitHub" />
+         </a>
+         <a href='https://www.instagram.com/cesarmontillarq/' target="_blank" rel="noopener noreferrer">
           <img className='imgredes' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/icons8-instagram.gif?alt=media&token=83e68c05-a392-4eb0-ab4a-f9dde4d31e4a" alt="Instagram" />
+          </a>
         </div>
       </div>
       <div className='homeimg'>

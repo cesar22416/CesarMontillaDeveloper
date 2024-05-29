@@ -30,6 +30,11 @@
     
     
 }
+.servimgdos{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
 
 .Software{
     display: flex;
@@ -46,6 +51,7 @@
   .servimg{
     display: flex;
     justify-content: center;
+  
   }
   .hrbase{
     display: flex;

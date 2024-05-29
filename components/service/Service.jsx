@@ -58,7 +58,7 @@ const Service = () => {
       
       </div>
       {/* Agrega un enlace que te lleve a ServiceDos */}
-      <Link to="/serviceDos"><CircularButton text='More'  color="#FAFF01"/></Link>
+      <Link to="/serviceDos"><Button text='More' textColor='black' color="#FAFF01"/></Link>
     </div>
     
   )

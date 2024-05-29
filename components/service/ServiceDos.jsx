@@ -7,8 +7,8 @@ const ServiceDos = () => {
   return (
     <div className='servicemon'>
         <div className='serviuno'>
-        <div className='servimg'>
-        <img className='imgservi' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/developer.png?alt=media&token=6b4061c1-c5ab-448c-a9e1-e68f5f8bdd90" alt="" />
+        <div className='servimgdos'>
+        <img className='imgservi' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/developer.png?alt=media&token=637c13e8-918a-47ea-a68c-49c01acc3409" alt="" />
         </div>
         <div className='Software'>
           <Button text='Languages' color='#F5F5F5' textColor='black'/>
@@ -41,7 +41,7 @@ const ServiceDos = () => {
       <h1>User Interface Design</h1>
       <div className='hrbase'>
       <p>Explore</p>
-        <CircularButton  color="#35FFA8" icon="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/flecha.png?alt=media&token=f3eb9225-567b-473b-a140-9f597a54a569"/>
+      <CircularButton  color="#35FFA8" icon="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/flecha.png?alt=media&token=f3eb9225-567b-473b-a140-9f597a54a569"/>
       </div>
       </div>
       </div> 
@@ -58,9 +58,6 @@ const ServiceDos = () => {
       </div>
       </div>
       </div> 
-
-
-      
       </div>
     </div>
   )

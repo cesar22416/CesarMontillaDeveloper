@@ -61,6 +61,10 @@
     
 
   }
+  .sinmedi{
+    width: 352px;
+    height: 408px;
+  }
   
   
   @media (max-width: 1000px) {
@@ -94,5 +98,9 @@
   .hruno{
     width: 100%;
    
+  }
+  .medimg{
+    width: 250px;
+    height: 250px;
   }
   }

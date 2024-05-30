@@ -64,7 +64,7 @@ const Work = () => {
             <img className='wimg' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/shoes.png?alt=media&token=7f146470-1096-4665-8222-6535d883e370" alt="" />
             </div>
           </div>
-        </div>
+        </div> 
 
       
       

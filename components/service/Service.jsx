@@ -9,7 +9,7 @@ const Service = () => {
     <div className='servicemon'>
       <div className='serviuno'>
         <div className='servimg'>
-          <img className='imgservi' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/ux_ui.png?alt=media&token=96e5d1ef-a0c3-440e-b10e-6949c15412a2" alt="" style={{ height: '408px', width:'352px' }} />
+          <img className='imgservi medimg sinmedi' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/ux_ui.png?alt=media&token=96e5d1ef-a0c3-440e-b10e-6949c15412a2" alt="" />
         </div>
         <div className='Software'>
           <Button text='Software' color='#F5F5F5' textColor='black'/>
@@ -18,7 +18,7 @@ const Service = () => {
           <CircularButton margin="0 35px 0 0 " color="#35FFA8" textColor="white" icon="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/ILLUTRA.png?alt=media&token=588b730f-7e22-4c02-8b50-a79db6b6484b" />
         </div>
       </div>
-      <div className='box'>
+      <div className='box'> 
 
         <div className='serviceuno'>
           <div className='hruno'>

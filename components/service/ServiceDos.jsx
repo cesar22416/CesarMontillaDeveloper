@@ -8,7 +8,7 @@ const ServiceDos = () => {
     <div className='servicemon'>
         <div className='serviuno'>
         <div className='servimg'>
-        <img className='imgservi' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/developer.png?alt=media&token=637c13e8-918a-47ea-a68c-49c01acc3409" alt="" />
+        <img className='imgservi medimg' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/developer.png?alt=media&token=637c13e8-918a-47ea-a68c-49c01acc3409" alt="" />
         </div>
         <div className='Software'>
           <Button text='Languages' color='#F5F5F5' textColor='black'/>

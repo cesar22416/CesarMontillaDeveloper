@@ -1,0 +1,45 @@
+.work{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    background: #35FFA8;
+    height: 600px;
+}
+.Workboxuno,.Workboxdos, .Workboxtres{
+    width: 30%;
+    color: white;
+}
+
+
+.Workboxuno{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+
+}
+.workhed{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+    height: 50px;
+}
+.workimg{
+    width: 100%;
+    height: 300px;
+}
+.worlkt{
+    font-size:20px;
+
+}
+
+.wimg{
+    width: 80%;
+    height: 100%;
+}
+
+.titulowork{
+    font-size: 30px;
+}

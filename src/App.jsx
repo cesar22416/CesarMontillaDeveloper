@@ -5,6 +5,7 @@ import Nav from '../components/nav/Nav';
 import Home from '../components/home/Home';
 import Service from '../components/service/Service';
 import ServiceDos from '../components/service/ServiceDos';
+import Work from '../components/work/Work';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Service" element={<Service />} />
           <Route path="/serviceDos" element={<ServiceDos />} />
+          <Route path="/Work" element={<Work />} />
         </Routes>
     </Router>
   );

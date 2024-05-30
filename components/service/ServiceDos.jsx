@@ -7,7 +7,7 @@ const ServiceDos = () => {
   return (
     <div className='servicemon'>
         <div className='serviuno'>
-        <div className='servimgdos'>
+        <div className='servimg'>
         <img className='imgservi' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/developer.png?alt=media&token=637c13e8-918a-47ea-a68c-49c01acc3409" alt="" />
         </div>
         <div className='Software'>
@@ -16,7 +16,7 @@ const ServiceDos = () => {
           <CircularButton margin="0 35px 0 0 " color="#35FFA8" textColor="white" icon="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/icons8-javascript-50.png?alt=media&token=9edc53ca-4efa-46a4-a626-5304aed5d07d" />
           <CircularButton margin="0 35px 0 0 " color="#35FFA8" textColor="white" icon="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/icons8-reaccionar-100.png?alt=media&token=118d7dae-e473-44dc-a4be-27adb2a57d33" />
         </div>
-      </div>
+      </div> 
       <div className='box'>
 
       <div className='serviceuno'>

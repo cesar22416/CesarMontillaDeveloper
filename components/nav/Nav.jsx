@@ -31,7 +31,7 @@ const Nav = () => {
           <Link className={`nav-link ${activeLink === '/about' ? 'active' : ''}`} to="/about" onClick={() => handleLinkClick('/about')}>About</Link>
           <Link className={`nav-link ${activeLink === '/contact' ? 'active' : ''}`} to="/contact" onClick={() => handleLinkClick('/contact')}>Contact</Link>
         </div>
-      </div>
+      </div> 
     </nav>
   );
 }

@@ -9,7 +9,7 @@ const Service = () => {
     <div className='servicemon'>
       <div className='serviuno'>
         <div className='servimg'>
-          <img className='imgservi' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/ux_ui.png?alt=media&token=96e5d1ef-a0c3-440e-b10e-6949c15412a2" alt="" />
+          <img className='imgservi' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/ux_ui.png?alt=media&token=96e5d1ef-a0c3-440e-b10e-6949c15412a2" alt="" style={{ height: '408px', width:'352px' }} />
         </div>
         <div className='Software'>
           <Button text='Software' color='#F5F5F5' textColor='black'/>

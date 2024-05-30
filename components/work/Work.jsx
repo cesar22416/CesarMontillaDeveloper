@@ -17,7 +17,7 @@ const Work = () => {
             
             
             <h1 className='titulowork'>Motorcycle trip app</h1>
-            <CircularButton  color="#FAFF01" icon="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/flecha.png?alt=media&token=f3eb9225-567b-473b-a140-9f597a54a569"/>
+            <Link to="/public/pdf/APPmot.pdf" target="_blank"> <CircularButton  color="#FAFF01" icon="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/flecha.png?alt=media&token=f3eb9225-567b-473b-a140-9f597a54a569"/></Link>
             </div>
             <div className='hrbase'>
               <p className='worlkt'>Design UX/UI</p>
@@ -36,7 +36,7 @@ const Work = () => {
             
             
             <h1>Social networking</h1>
-            <CircularButton  color="#FAFF01" icon="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/flecha.png?alt=media&token=f3eb9225-567b-473b-a140-9f597a54a569"/>
+            <Link to="/public/pdf/app.pdf" target="_blank"> <CircularButton  color="#FAFF01" icon="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/flecha.png?alt=media&token=f3eb9225-567b-473b-a140-9f597a54a569"/></Link>
             </div>
             <div className='hrbase'>
               <p className='worlkt'>Design UX/UI</p>
@@ -55,7 +55,7 @@ const Work = () => {
             
             
             <h1>Shoes app</h1>
-            <CircularButton  color="#FAFF01" icon="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/flecha.png?alt=media&token=f3eb9225-567b-473b-a140-9f597a54a569"/>
+            <Link to="/public/pdf/shoes.pdf" target="_blank"><CircularButton  color="#FAFF01" icon="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/flecha.png?alt=media&token=f3eb9225-567b-473b-a140-9f597a54a569"  /></Link> 
             </div>
             <div className='hrbase'>
               <p className='worlkt'>Design UX/UI</p>

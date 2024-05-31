@@ -8,6 +8,7 @@ import ServiceDos from '../components/service/ServiceDos';
 import Work from '../components/work/Work';
 import Skill from '../components/skill/Skill';
 import About from '../components/about/About';
+import Contact from '../components/contact/Contact';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Skill" element={<Skill />} />
           <Route path="/About" element={<About />} />
+          <Route path="/Contact" element={<Contact />} />
           <Route path="/Service" element={<Service />} />
           <Route path="/serviceDos" element={<ServiceDos />} />
           <Route path="/Work" element={<Work />} />

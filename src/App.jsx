@@ -6,6 +6,8 @@ import Home from '../components/home/Home';
 import Service from '../components/service/Service';
 import ServiceDos from '../components/service/ServiceDos';
 import Work from '../components/work/Work';
+import Skill from '../components/skill/Skill';
+import About from '../components/about/About';
 
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/Skill" element={<Skill />} />
+          <Route path="/About" element={<About />} />
           <Route path="/Service" element={<Service />} />
           <Route path="/serviceDos" element={<ServiceDos />} />
           <Route path="/Work" element={<Work />} />

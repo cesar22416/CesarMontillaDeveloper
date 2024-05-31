@@ -1,76 +1,75 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Importa Link de react-router-dom
-import Button from '../button/Button';
+import { Link } from 'react-router-dom';
 import CircularButton from '../circularBu/CircularButton';
-import './work.css'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './work.css';
 
 const Work = () => {
+  const projects = [
+    {
+      title: 'Motorcycle trip app',
+      description: 'Design UX/UI',
+      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/Group%2020.png?alt=media&token=a99dfb55-5ae6-4ed6-a02e-41e0a929dfeb',
+      link: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/APPmot.pdf?alt=media&token=7bdd8dec-7300-47eb-a550-e0271db4cd42',
+    },
+    {
+      title: 'Social networking',
+      description: 'Design UX/UI',
+      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/socail.png?alt=media&token=d750c592-bd2f-4ba2-91e9-b2688f9f6349',
+      link: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/app.pdf?alt=media&token=95656506-7cb0-4ae3-825f-77a5270282f0',
+    },
+    {
+      title: 'Shoes app',
+      description: 'Design UX/UI',
+      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/shoes.png?alt=media&token=7f146470-1096-4665-8222-6535d883e370',
+      link: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/shoes.pdf?alt=media&token=0d994412-9574-407e-86ee-f50c60d8d383',
+    },
+    {
+      title: 'E-commerce',
+      description: 'Web/Multipages website',
+      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/mono%20moto.PNG?alt=media&token=1027792a-8cc5-4f3a-8d79-86fb7d13382c',
+      link: 'https://verdant-cheesecake-406dc2.netlify.app/',
+    },
+    {
+      title: 'Equema_ARQ',
+      description: 'Web/One Page',
+      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/Esquema.PNG?alt=media&token=fcc3e472-772a-43a4-94c9-d168e8e9bd4f',
+      link: 'https://shiny-maamoul-8db74f.netlify.app/',
+    },
+    {
+      title: 'Escuela DE Yoga',
+      description: 'Web/Multipages website',
+      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/yoga.JPG?alt=media&token=74a09178-9274-4b44-bdbd-b6f704df156e',
+      link: 'https://shiny-maamoul-8db74f.netlify.app/',
+    }
+
+
+
+  ];
+
   return (
-    <div className='work'>
-    
-      <div className='Workboxuno'>
-     
-        <div className='boxuno'>
-            <hr className="styled-hr"/>
-          <div className='workhed'>
-            
-            
-            <h1 className='titulowork'>Motorcycle trip app</h1>
-            <Link to="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/APPmot.pdf?alt=media&token=7bdd8dec-7300-47eb-a550-e0271db4cd42" target="_blank"> <CircularButton  color="#FAFF01" icon="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/flecha.png?alt=media&token=f3eb9225-567b-473b-a140-9f597a54a569"/></Link>
-            </div>
-            <div className='hrbase'>
-              <p className='worlkt'>Design UX/UI</p>
-            </div>
-            <div className='workimg' >
-            <img className="wimg" src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/Group%2020.png?alt=media&token=a99dfb55-5ae6-4ed6-a02e-41e0a929dfeb" alt="" />
-          </div>
-          </div>
-        </div>
-
-
-        <div className='Workboxuno'>
-        <div className='boxuno'>
-            <hr className="styled-hr"/>
-          <div className='workhed'>
-            
-            
-            <h1>Social networking</h1>
-            <Link to="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/app.pdf?alt=media&token=95656506-7cb0-4ae3-825f-77a5270282f0" target="_blank"> <CircularButton  color="#FAFF01" icon="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/flecha.png?alt=media&token=f3eb9225-567b-473b-a140-9f597a54a569"/></Link>
-            </div>
-            <div className='hrbase'>
-              <p className='worlkt'>Design UX/UI</p>
-            </div>
-            <div className='workimg' >
-            <img className="wimg" src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/socail.png?alt=media&token=d750c592-bd2f-4ba2-91e9-b2688f9f6349" alt="" />
-          </div>
-          </div>
-        </div>
-
-        <div className='Workboxuno'>
-      
-        <div className='boxuno'>
-            <hr className="styled-hr"/>
-          <div className='workhed'>
-            
-            
-            <h1>Shoes app</h1>
-            <Link to="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/shoes.pdf?alt=media&token=0d994412-9574-407e-86ee-f50c60d8d383" target="_blank"><CircularButton  color="#FAFF01" icon="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/flecha.png?alt=media&token=f3eb9225-567b-473b-a140-9f597a54a569"  /></Link> 
-            </div>
-            <div className='hrbase'>
-              <p className='worlkt'>Design UX/UI</p>
-            </div>
-            <div className='workimg' >
-            <img className='wimg' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/shoes.png?alt=media&token=7f146470-1096-4665-8222-6535d883e370" alt="" />
+    <div className="container mt-5">
+      <h2 className="text-center mb-4 titulowork">My Work</h2>
+      <div className="row">
+        {projects.map((project, index) => (
+          <div className="col-lg-4 col-md-6 mb-4" key={index}>
+            <div className="card h-100">
+              <img src={project.img} className="card-img-top" alt={project.title} />
+              <div className="card-body">
+                <h5 className="card-title">{project.title}</h5>
+                <p className="card-text">{project.description}</p>
+              </div>
+              <div className="card-footer text-center">
+                <Link to={project.link} target="_blank" className="btn btn-primary">
+                  <button className='btn btn-outline-warning'><i class="bi bi-arrow-right-short"></i></button>
+                </Link>
+              </div>
             </div>
           </div>
-        </div> 
-
-      
-      
+        ))}
+      </div>
     </div>
-    
-  )
-}
+  );
+};
 
 export default Work;

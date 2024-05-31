@@ -26,6 +26,7 @@ const Nav = () => {
         </button>
         <div className="collapse navbar-collapse navall" id="navbarSupportedContent">
           <Link className={`nav-link ${activeLink === '/' ? 'active' : ''}`} to="/" onClick={() => handleLinkClick('/')}>Home</Link>
+          <Link className={`nav-link ${activeLink === '/skill' ? 'active' : ''}`} to="/Skill" onClick={() => handleLinkClick('/skill')}>Skill</Link>
           <Link className={`nav-link ${activeLink === '/work' ? 'active' : ''}`} to="/work" onClick={() => handleLinkClick('/work')}>Work</Link>
           <Link className={`nav-link ${activeLink === '/service' ? 'active' : ''}`} to="/service" onClick={() => handleLinkClick('/service')}>Service</Link>
           <Link className={`nav-link ${activeLink === '/about' ? 'active' : ''}`} to="/about" onClick={() => handleLinkClick('/about')}>About</Link>

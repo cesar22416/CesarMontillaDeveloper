@@ -6,6 +6,25 @@ import './work.css';
 
 const Work = () => {
   const projects = [
+    
+    {
+      title: 'E-commerce',
+      description: 'Web/Multipages website',
+      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/mono%20moto.PNG?alt=media&token=1027792a-8cc5-4f3a-8d79-86fb7d13382c',
+      link: 'https://verdant-cheesecake-406dc2.netlify.app/',
+    },
+    {
+      title: 'Equema_ARQ',
+      description: 'Web/One Page',
+      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/Esquema.PNG?alt=media&token=fcc3e472-772a-43a4-94c9-d168e8e9bd4f',
+      link: 'https://shiny-maamoul-8db74f.netlify.app/',
+    },
+    {
+      title: 'Escuela DE Yoga',
+      description: 'Web/Multipages website',
+      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/yoga.JPG?alt=media&token=74a09178-9274-4b44-bdbd-b6f704df156e',
+      link: 'https://shiny-maamoul-8db74f.netlify.app/',
+    },
     {
       title: 'Motorcycle trip app',
       description: 'Design UX/UI',
@@ -25,22 +44,16 @@ const Work = () => {
       link: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/shoes.pdf?alt=media&token=0d994412-9574-407e-86ee-f50c60d8d383',
     },
     {
-      title: 'E-commerce',
-      description: 'Web/Multipages website',
-      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/mono%20moto.PNG?alt=media&token=1027792a-8cc5-4f3a-8d79-86fb7d13382c',
-      link: 'https://verdant-cheesecake-406dc2.netlify.app/',
+      title: 'SimonGame',
+      description: 'Game',
+      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/imgame.PNG?alt=media&token=8bcacd28-3b99-4c73-8eb6-b21f44d09841',
+      link: 'https://simongam3.netlify.app/',
     },
     {
-      title: 'Equema_ARQ',
-      description: 'Web/One Page',
-      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/Esquema.PNG?alt=media&token=fcc3e472-772a-43a4-94c9-d168e8e9bd4f',
-      link: 'https://shiny-maamoul-8db74f.netlify.app/',
-    },
-    {
-      title: 'Escuela DE Yoga',
-      description: 'Web/Multipages website',
-      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/yoga.JPG?alt=media&token=74a09178-9274-4b44-bdbd-b6f704df156e',
-      link: 'https://shiny-maamoul-8db74f.netlify.app/',
+      title: 'CahtApp',
+      description: 'Chat',
+      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/imgchat.PNG?alt=media&token=b64ff093-4855-4c88-bb8f-487c1bb805fc',
+      link: 'https://chatchut.netlify.app',
     }
 
 

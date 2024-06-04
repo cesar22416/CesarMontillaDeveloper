@@ -11,15 +11,17 @@ const About = () => {
         <div className="col-md-8">
           <h2>About Me</h2>
           <p>
-            Hello! I am a software developer with a passion for creating web applications.
-            I have experience in various technologies including React, Node.js, and MongoDB.
-            I enjoy learning new things and keeping up with the latest trends in web development.
+          Hello! I'm a passionate software developer specializing in crafting exceptional web applications. With expertise in technologies like React, Node.js, and more, I've dedicated myself to delivering top-notch solutions that push the boundaries of what's possible in web development.
+
+What sets me apart is not just my technical prowess, but also my ability to collaborate effectively and communicate ideas clearly. I excel in team environments, leveraging my interpersonal skills to foster collaboration and drive success.
+
+In essence, I'm not just a software developer; I'm a visionary problem-solver dedicated to delivering outstanding results.
           </p>
           <div className="social-icons">
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="me-2">
               <i className="bi bi-github imgskill"></i>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="me-2">
+            <a href="https://www.linkedin.com/in/cesar-montilla-7b9431125/" target="_blank" rel="noopener noreferrer" className="me-2">
               <i className="bi bi-linkedin imgskill"></i>
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">

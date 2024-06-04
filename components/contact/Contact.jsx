@@ -19,14 +19,14 @@ const Contact = () => {
               <label htmlFor="mensaje" className="form-label">Mensaje</label>
               <textarea className="form-control" id="mensaje" rows="5"></textarea>
             </div>
-            <button type="submit" className="btn btn-primary">Enviar</button>
+            <button type="submit" className="btn" style={{ backgroundColor: '#35FFA8', borderColor: '#35FFA8', color: '#fff' }}>Enviar</button>
           </form>
         </div>
         <div className="col-md-6">
           <h3>Información de contacto</h3>
-          <p>Dirección: Calle Principal, Ciudad, País</p>
-          <p>Teléfono: +1234567890</p>
-          <p>Correo electrónico: info@example.com</p>
+          <p>Dirección: Buenos Aires, Argentina</p>
+          <p>Teléfono: +541167211326</p>
+          <p>Correo electrónico: Cesarmontilla22@gmail.com</p>
         </div>
       </div>
     </div>

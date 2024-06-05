@@ -50,13 +50,13 @@ const Work = () => {
       link: 'https://simongam3.netlify.app/',
     },
     {
-      title: 'CahtApp',
+      title: 'ChatApp',
       description: 'Chat',
       img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/imgchat.PNG?alt=media&token=b64ff093-4855-4c88-bb8f-487c1bb805fc',
       link: 'https://chatchut.netlify.app',
     },
     {
-      title: 'GenreQr',
+      title: 'GenereQr',
       description: 'QR',
       img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/qrdddd.PNG?alt=media&token=2fc67ba3-f6f4-49a9-acbd-1733c08ba4dd',
       link: 'https://generqr.netlify.app/',

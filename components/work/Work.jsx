@@ -23,7 +23,7 @@ const Work = () => {
       title: 'Escuela DE Yoga',
       description: 'Web/Multipages website',
       img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/yoga.JPG?alt=media&token=74a09178-9274-4b44-bdbd-b6f704df156e',
-      link: 'https://shiny-maamoul-8db74f.netlify.app/',
+      link: 'https://jade-souffle-0f5310.netlify.app/',
     },
     {
       title: 'Motorcycle trip app',

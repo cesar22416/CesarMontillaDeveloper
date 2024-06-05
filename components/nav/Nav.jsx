@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './nav.css';
 
+
 const Nav = () => {
   const [activeLink, setActiveLink] = useState('');
   const location = useLocation();
@@ -19,7 +20,7 @@ const Nav = () => {
     <nav className="navmonder navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <div className='navlogo'>
-          <a className="navbar-brand logo" href="#">Cesar Montilla</a>
+          <Link to="/" className="navbar-brand logo" href="#">Cesar Montilla</Link>
         </div>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

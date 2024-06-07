@@ -60,6 +60,11 @@ const Work = () => {
       description: 'QR',
       img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/qrdddd.PNG?alt=media&token=2fc67ba3-f6f4-49a9-acbd-1733c08ba4dd',
       link: 'https://generqr.netlify.app/',
+    },{
+      title: 'Modelador3D',
+      description: '3D',
+      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/Burguer.PNG?alt=media&token=b12d7d74-b8b0-43b5-a12c-3b9413c819c9',
+      link: 'https://dwg6.netlify.app/',
     }
 
 

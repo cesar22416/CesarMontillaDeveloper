@@ -36,6 +36,11 @@ const Work = () => {
       description: 'Design UX/UI',
       img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/socail.png?alt=media&token=d750c592-bd2f-4ba2-91e9-b2688f9f6349',
       link: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/app.pdf?alt=media&token=95656506-7cb0-4ae3-825f-77a5270282f0',
+    },{
+      title: 'Visor de Modelos 3D',
+      description: 'Design UX/UI',
+      img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/ONE.png?alt=media&token=0a98c6fc-a649-4dd3-a940-2783ba87bb18',
+      link: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/3D.pdf?alt=media&token=20257d7a-ff5a-4ebd-83fb-ddd698eac764',
     },
     {
       title: 'Shoes app',
@@ -61,7 +66,7 @@ const Work = () => {
       img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/qrdddd.PNG?alt=media&token=2fc67ba3-f6f4-49a9-acbd-1733c08ba4dd',
       link: 'https://generqr.netlify.app/',
     },{
-      title: 'Modelador3D',
+      title: 'Visor de Modelos 3D',
       description: '3D',
       img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/Burguer.PNG?alt=media&token=b12d7d74-b8b0-43b5-a12c-3b9413c819c9',
       link: 'https://dwg6.netlify.app/',

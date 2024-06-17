@@ -1,107 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Roboto+Slab:wght@100..900&display=swap');
 
+.container {
+    padding: 0 15px;
+}
 
-.Software{
+.Software {
     display: flex;
     justify-content: flex-start;
 }
-.buttoncir{
+
+.buttoncir {
     margin-right: 150px;
 }
 
-.servicemon{
+.servicemon {
     display: flex;
     flex-direction: row;
     width: 100%;
     margin-top: 30px;
 }
-.serviuno{
+
+.serviuno {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
-    
 }
 
-
-.imgservi{
+.imgservi {
     width: 90%;
-    
-    
-}
-.servimgdos{
-  display: flex;
-  justify-content: center;
-  width: 65%;
 }
 
-.Software{
+.servimgdos {
     display: flex;
-
+    justify-content: center;
+    width: 65%;
 }
 
 .styled-hr {
     border: none;
-    border-top: 3px solid black; /* Cambia el color y el grosor según tus necesidades */
-    margin: -1px ; /* Ajusta el margen superior e inferior */
-    width: 80%; /* Ajusta el ancho */
-  }
-  
-  .servimg{
+    border-top: 3px solid black;
+    margin: -1px;
+    width: 80%;
+}
+
+.servimg {
     display: flex;
     justify-content: center;
-  
-  }
-  .hrbase{
+}
+
+.hrbase {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    
+}
 
-  }
-  .sinmedi{
+.sinmedi {
     width: 352px;
     height: 408px;
-  }
-  
-  
-  @media (max-width: 1000px) {
+}
 
-.box{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
+@media (max-width: 1000px) {
+    .box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
     
-  }
-    
-  .servicemon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 20px; 
-  }
+    .servicemon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+    }
 
-  .servicetres,
-  .servicedos,
-  .serviceuno {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .servicetres,
+    .servicedos,
+    .serviceuno {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .hruno {
+        width: 100%;
+    }
+
+    .medimg {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sinmedi {
+        width: 100%;
+        height: auto;
+    }
+
+    .hrbase {
+        flex-direction: column;
+        align-items: flex-start;
+    }
     
+    .btn-outline-warning {
+        margin-top: 10px;
+    }
     
-  }
-  .hruno{
-    width: 100%;
-   
-  }
-  .medimg{
-    width: 250px;
-    height: 250px;
-  }
-  }
+    .serviceuno h1, .servicedos h1, .servicetres h1 {
+        font-size: 1.5rem;
+    }
+}

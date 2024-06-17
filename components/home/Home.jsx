@@ -31,7 +31,7 @@ const Home = () => {
         </div>
       </div>
       <div className='homeimg'>
-        <img className='imgava' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/ava.png?alt=media&token=3b0df4f0-a8f9-43cb-bd92-6e178e036d4e" alt="" />
+        <img className='imgava' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/avatar21.png?alt=media&token=f39bb459-4bb9-4ec8-b1d8-8f3afdaa82a7" alt="" />
       </div>
     </div>
   );

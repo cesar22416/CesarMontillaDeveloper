@@ -6,7 +6,7 @@ const About = () => {
        <div className="container mt-5">
       <div className="row">
         <div className="col-md-4 text-center">
-          <img src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/ava.png?alt=media&token=3b0df4f0-a8f9-43cb-bd92-6e178e036d4e" className="rounded-circle img-fluid" alt="Profile" />
+          <img src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/avatar21.png?alt=media&token=f39bb459-4bb9-4ec8-b1d8-8f3afdaa82a7" className="rounded-circle img-fluid" alt="Profile" />
         </div>
         <div className="col-md-8">
           <h2>About Me</h2>

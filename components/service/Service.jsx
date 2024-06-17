@@ -7,7 +7,7 @@ const Service = () => {
     <div className='container mt-5'>
       <div className='row'>
 
-        <div className='col-md-6'>
+        <div className='col-lg-4 col-md-6 mb-4'>
           <div className='servimg'>
             <img className='imgservi medimg sinmedi' src="https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/ux_ui.png?alt=media&token=96e5d1ef-a0c3-440e-b10e-6949c15412a2" alt="" />
           </div>
@@ -15,7 +15,7 @@ const Service = () => {
           </div>
         </div>
 
-        <div className='col-md-5'>
+        <div className='col-lg-4 col-md-6 mb-4'> 
           <div className='box'> 
             <div className='serviceuno'>
               <div className='hruno'>

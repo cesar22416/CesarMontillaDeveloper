@@ -9,7 +9,7 @@ import Work from '../components/work/Work';
 import Skill from '../components/skill/Skill';
 import About from '../components/about/About';
 import Contact from '../components/contact/Contact';
-import ContenidoEducativo from '../components/blog/ContenidoEducativo';
+import Educativo from '../components/blog/Educativo';
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
   <Route path="/Service" element={<Service />} />
   <Route path="/serviceDos" element={<ServiceDos />} />
   <Route path="/Work" element={<Work />} />
-  <Route path="/ContenidoEducativo" element={<ContenidoEducativo/>} />
+  <Route path="/Educativo" element={<Educativo/>} />
   </Routes>
     </Router>
   );

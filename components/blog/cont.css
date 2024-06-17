@@ -11,3 +11,10 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    width: 100%;
+}

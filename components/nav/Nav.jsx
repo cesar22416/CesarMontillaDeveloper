@@ -19,8 +19,8 @@ const Nav = () => {
   return (
     <nav className="navmonder navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <div className='navlogo'>
-          <Link to="/" className="navbar-brand logo" href="#">Cesar Montilla</Link>
+        <div className='navlogo '>
+          <Link to="/" className="navbar-brand logo titulo" href="#">Cesar Montilla</Link>
         </div>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@ const Nav = () => {
           <Link className={`nav-link ${activeLink === '/service' ? 'active' : ''}`} to="/service" onClick={() => handleLinkClick('/service')}>Service</Link>
           <Link className={`nav-link ${activeLink === '/about' ? 'active' : ''}`} to="/about" onClick={() => handleLinkClick('/about')}>About</Link>
           <Link className={`nav-link ${activeLink === '/contact' ? 'active' : ''}`} to="/contact" onClick={() => handleLinkClick('/contact')}>Contact</Link>
-          <Link className={`nav-link ${activeLink === '/cotenidoeducativo' ? 'active' : ''}`} to="/contenidoeducativo" onClick={() => handleLinkClick('/contenidoeducativo')}>Blog</Link>
+          <Link className={`nav-link ${activeLink === '/Educativo' ? 'active' : ''}`} to="/Educativo" onClick={() => handleLinkClick('/Educativo')}>Blog</Link>
         </div>
       </div> 
     </nav>

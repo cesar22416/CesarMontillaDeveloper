@@ -1,6 +1,6 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import './contact.css'
 const Contact = () => {
   return (
     <div className="container mt-5">
@@ -23,7 +23,7 @@ const Contact = () => {
             <button type="submit" className="btn" style={{ backgroundColor: '#35FFA8', borderColor: '#35FFA8', color: '#fff' }}>Send</button>
           </form>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6 datos">
           <h3>Contact information</h3>
           <p>Address: Buenos Aires, Argentina</p>
           <p>Phone: +541167211326</p>

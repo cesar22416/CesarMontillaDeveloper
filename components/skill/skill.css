@@ -8,3 +8,15 @@
 .card{
     background: white;
 }
+
+.card:hover h5,
+.card:hover p,
+.card:hover {
+    background: #1fc9d0;
+    color: white;
+}
+
+
+.card,i,h5,p{
+    color: black;
+}

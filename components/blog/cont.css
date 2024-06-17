@@ -1,20 +1,81 @@
-.boxcont{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-
-}
-.tutorial{
+.boxcont {
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
-.time{
+
+.tutorial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.time {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
     width: 100%;
+    margin-bottom: 10px;
+}
+
+.time h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.time p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.tutorial img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.tutorial p {
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .tutorial {
+        padding: 15px;
+        margin: 15px 0;
+    }
+
+    .time h3 {
+        font-size: 1.3em;
+    }
+
+    .time p {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .tutorial {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .time h3 {
+        font-size: 1.1em;
+    }
+
+    .time p {
+        font-size: 0.7em;
+    }
 }

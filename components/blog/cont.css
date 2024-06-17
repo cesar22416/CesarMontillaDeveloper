@@ -1,0 +1,13 @@
+.boxcont{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.tutorial{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}

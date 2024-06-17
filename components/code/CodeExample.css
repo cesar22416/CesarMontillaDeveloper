@@ -1,0 +1,33 @@
+/* src/cont.css */
+
+.boxcont {
+    max-width: 800px; /* Ajusta esto según tus necesidades */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tutorial {
+    margin-bottom: 20px;
+  }
+  
+  .tutorial img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .code-example {
+    margin: 20px 0;
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  .code-example pre {
+    margin: 0;
+  }
+  

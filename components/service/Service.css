@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Roboto+Slab:wght@100..900&display=swap');
+/* Evita importar la fuente en este ejemplo ya que ya se ha importado */
 
 .container {
     padding: 0 15px;
@@ -7,76 +7,52 @@
     width: 100%;
 }
 
-.servicio_imagen{
+.servicio_imagen {
     width: 50%;
-
 }
 
-.servicio_Info{
-    width: 100%;
+.servicio_Info {
+    width: 50%; /* Ajusta según tus necesidades */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.servicio_info_detalle{
+.servicio_info_detalle {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-
 
 @media (max-width: 1000px) {
-    .box {
-        width: 100%;
-        display: flex;
+    .container {
         flex-direction: column;
         align-items: center;
-        margin-top: 30px;
-    }
-    
-    .servicemon {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 20px;
     }
 
-    .servicetres,
-    .servicedos,
-    .serviceuno {
+    .servicio_imagen {
+        width: 100%; /* O ajusta según tus necesidades */
+    }
+
+    .servicio_Info {
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .hruno {
-        width: 100%;
-    }
-
-    .medimg {
-        width: 250px;
-        height: 250px;
+        margin-top: 20px; /* Ejemplo de ajuste de margen */
     }
 }
 
 @media (max-width: 600px) {
-    .sinmedi {
-        width: 100%;
-        height: auto;
+    .servicio_imagen,
+    .servicio_Info {
+        width: 100%; /* Ajusta según tus necesidades */
     }
 
-    .hrbase {
-        flex-direction: column;
-        align-items: flex-start;
+    .servicio_info_detalle {
+        margin-top: 10px; /* Ejemplo de ajuste de margen */
     }
-    
-    .btn-outline-warning {
-        margin-top: 10px;
-    }
-    
-    .serviceuno h1, .servicedos h1, .servicetres h1 {
-        font-size: 1.5rem;
+
+    .serviceuno h1,
+    .servicedos h1,
+    .servicetres h1 {
+        font-size: 1.2rem; /* Reducción del tamaño de fuente para dispositivos más pequeños */
     }
 }

@@ -38,7 +38,7 @@ const Skill = () => {
   ];
   return (
     <div className='container mt-5'>
-        <h1 className='titulo'>Example heading </h1>
+        <h1 className='titulo'>Skill </h1>
       <div className="row">
         {skills.map((skill, index) => (
           <div key={index} className=" col-lg-4 col-md-6 mb-4">

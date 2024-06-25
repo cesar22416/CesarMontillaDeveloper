@@ -2,65 +2,29 @@
 
 .container {
     padding: 0 15px;
-}
-
-.Software {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.buttoncir {
-    margin-right: 150px;
-}
-
-.servicemon {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-top: 30px;
 }
 
-.serviuno {
+.servicio_imagen{
+    width: 50%;
+
+}
+
+.servicio_Info{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+    align-items: flex-start;
 }
 
-.imgservi {
-    width: 90%;
-}
-
-.servimgdos {
+.servicio_info_detalle{
     display: flex;
-    justify-content: center;
-    width: 65%;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.styled-hr {
-    border: none;
-    border-top: 3px solid black;
-    margin: -1px;
-    width: 80%;
-}
-
-.servimg {
-    display: flex;
-    justify-content: center;
-}
-
-.hrbase {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-}
-
-.sinmedi {
-    width: 352px;
-    height: 408px;
-}
 
 @media (max-width: 1000px) {
     .box {

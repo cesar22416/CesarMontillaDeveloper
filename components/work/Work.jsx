@@ -44,7 +44,7 @@ const Work = () => {
     },
     {
       title: 'Encriptador de texto',
-      description: 'Design UX/UI',
+      description: 'web',
       img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/MacBook%20Pro%2014_%20-%201.png?alt=media&token=641d61a1-f2df-4d09-bca3-b9ec3b4a7d1d',
       link: 'https://challenge-developer.vercel.app/home.html',
     },

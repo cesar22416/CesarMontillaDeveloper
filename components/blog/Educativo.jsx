@@ -40,6 +40,59 @@ const Educativo = () => {
         ng new mi-aplicacion-angular
         cd mi-aplicacion-angular
         ng serve`}
+    },
+    {
+      id:3,
+      fecha: '01. Julio 2024',  
+      imagen: 'https://lenguajejs.com/javascript/asincronia/promesas/promises.png',  // Placeholder image
+      titulo: '¿Cómo trabajar con Promesas (Promises)?',
+      contenido: 'Las Promesas son objetos que representan la eventual completitud (o falla) de una operación asíncrona, y son fundamentales para manejar flujos de datos asíncronos de manera más limpia y estructurada. Aquí tienes un ejemplo básico de cómo crear y usar una Promesa en JavaScript: ', 
+      codeExample: { codeString: 
+        `// Ejemplo de una función que retorna una Promesa
+function hacerAlgo() {
+    return new Promise((resolve, reject) => {
+        // Simulamos una operación asíncrona (por ejemplo, una solicitud HTTP)
+        setTimeout(() => {
+            let exito = true; // Cambiar a false para simular una falla
+            if (exito) {
+                resolve("¡Operación exitosa!"); // Resuelve la promesa si todo va bien
+            } else {
+                reject(new Error("¡Algo salió mal!")); // Rechaza la promesa en caso de error
+            }
+        }, 2000); // Simulamos un retardo de 2 segundos
+    });
+}
+
+// Uso de la función que retorna una Promesa
+hacerAlgo()
+    .then(resultado => {
+        console.log(resultado); // Operación exitosa
+    })
+    .catch(error => {
+        console.error(error); // Manejo de errores
+    });// Ejemplo de una función que retorna una Promesa
+function hacerAlgo() {
+    return new Promise((resolve, reject) => {
+        // Simulamos una operación asíncrona (por ejemplo, una solicitud HTTP)
+        setTimeout(() => {
+            let exito = true; // Cambiar a false para simular una falla
+            if (exito) {
+                resolve("¡Operación exitosa!"); // Resuelve la promesa si todo va bien
+            } else {
+                reject(new Error("¡Algo salió mal!")); // Rechaza la promesa en caso de error
+            }
+        }, 2000); // Simulamos un retardo de 2 segundos
+    });
+}
+
+// Uso de la función que retorna una Promesa
+hacerAlgo()
+    .then(resultado => {
+        console.log(resultado); // Operación exitosa
+    })
+    .catch(error => {
+        console.error(error); // Manejo de errores
+    });`}
     }
   ];
 

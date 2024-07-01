@@ -4,10 +4,11 @@ import './contact.css'
 const Contact = () => {
   return (
     <div className="container mt-5">
-      <h1 className='titulowork'>Contact</h1>
-      <div className="row">
-        <div className="col-md-6">
+      <div className="boxMon row">
+
+        <div className="col-md-6 contactoBox">
           <form>
+          <h1 className='titulowork'>Contact</h1>
             <div className="mb-3">
               <label htmlFor="nombre" className="form-label">Name</label>
               <input type="text" className="form-control" id="nombre" />
@@ -23,6 +24,7 @@ const Contact = () => {
             <button type="submit" className="btn" style={{ backgroundColor: '#35FFA8', borderColor: '#35FFA8', color: '#fff' }}>Send</button>
           </form>
         </div>
+
         <div className="col-md-6 datos">
           <h3>Contact information</h3>
           <p>Address: Buenos Aires, Argentina</p>
@@ -38,6 +40,8 @@ const Contact = () => {
             </a>
           </p>
         </div>
+
+
       </div>
     </div>
   );

@@ -5,7 +5,7 @@
   } 
   .mb-3{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: flex-start;
     align-items: flex-start;
   }
@@ -13,5 +13,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 30%;
     
+  }
+  .boxMon{
+    width: 100%;
+  }
+  .contactoBox{
+    width: 70%;
   }

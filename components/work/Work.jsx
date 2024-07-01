@@ -4,6 +4,8 @@ import CircularButton from '../circularBu/CircularButton';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './work.css';
 
+
+
 const Work = () => {
   const projects = [
     
@@ -12,6 +14,7 @@ const Work = () => {
       description: 'Web/Multipages website',
       img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/mono%20moto.PNG?alt=media&token=1027792a-8cc5-4f3a-8d79-86fb7d13382c',
       link: 'https://verdant-cheesecake-406dc2.netlify.app/',
+      
     },
     {
       title: 'Equema_ARQ',

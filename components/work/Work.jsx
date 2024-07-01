@@ -76,6 +76,11 @@ const Work = () => {
       description: '3D',
       img: 'https://firebasestorage.googleapis.com/v0/b/cesar22.appspot.com/o/Burguer.PNG?alt=media&token=b12d7d74-b8b0-43b5-a12c-3b9413c819c9',
       link: 'https://dwg6.netlify.app/',
+    },{
+      title: 'UsuarioGithub',
+      description: 'Tu lenguaje',
+      img: 'https://firebasestorage.googleapis.com/v0/b/base-login-b8f3c.appspot.com/o/imggithup.PNG?alt=media&token=768769e0-b884-4e11-8151-034f20334004',
+      link: 'https://tulenguaje.netlify.app/',
     }
 
 

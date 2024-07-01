@@ -2,8 +2,9 @@
     font-size: 3rem; /* Ajusta el tamaño del icono */
   color: #35FFA8;
 }
-.titulo{
+.tituloSkill{
     color: #35FFA8;
+    display: flex;
 }
 .card{
     background: white;

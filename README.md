@@ -11,7 +11,7 @@
 | **Características** | - - Portafolio interactivo con detalles de proyectos.
                         - - Blog con artículos técnicos y actualizaciones.
                         - - Sección de habilidades con una lista de tecnologías dominadas.
-                        - - Formulario de contacto para comunicación directa.                                                                                                                       |
+                        - - Formulario de contacto para comunicación directa.|                                                                                                                    
 | **Capturas de Pantalla** | ![Captura de pantalla 1](ruta/a/imagen1.png)                                                                                                                   |
 |                         | ![Captura de pantalla 2](ruta/a/imagen2.png)                                                                                                                   |
 | **Contribución**    | Si quieres contribuir, sigue las pautas en [CONTRIBUTING.md](link/a/contributing.md).                                                                           |

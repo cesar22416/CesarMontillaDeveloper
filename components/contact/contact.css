@@ -22,3 +22,16 @@
   .contactoBox{
     width: 70%;
   }
+  @media (max-width: 1000px) {
+    .boxMon{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .datos{
+      width: 100%;
+    }
+    .contactoBox{
+      width: 100%;
+    }
+  }

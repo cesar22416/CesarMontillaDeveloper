@@ -24,13 +24,14 @@
     align-items: flex-start;
 }
 
+
 @media (max-width: 1000px) {
     .container {
         flex-direction: column;
         align-items: center;
     }
 
-    .servicio_imagen {
+    .sinmedi {
         width: 100%; /* O ajusta según tus necesidades */
     }
 

@@ -54,8 +54,8 @@ const ServiceDos = () => {
           </div>
         </div>
 
-        <div className='col-lg-8'>
-          <div className='row'>
+        
+          <div className='row '>
             {services.map(service => (
               <div key={service.id} className='col-lg-4 col-md-6 mb-4 servicio_Info'>
                   <hr className="styled-hr"/>
@@ -73,7 +73,7 @@ const ServiceDos = () => {
           </div>
        
 
-      </div>
+      
 
       <Modal
         show={modalOpen}

@@ -1,7 +1,7 @@
 # CesarMontillaDeveloper
 
 ## Descripción
-<FontAwesomeIcon icon="fa-brands fa-readme" />Este proyecto es un portafolio de desarrollador que muestra mis habilidades y proyectos realizados. Incluye diversas secciones para presentar mi experiencia, habilidades técnicas y proyectos destacados.
+<i class="fa-brands fa-readme"></i>Este proyecto es un portafolio de desarrollador que muestra mis habilidades y proyectos realizados. Incluye diversas secciones para presentar mi experiencia, habilidades técnicas y proyectos destacados.
 
 ## Tecnologías Utilizadas
 - HTML

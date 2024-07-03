@@ -8,8 +8,8 @@ Este proyecto es un portafolio de desarrollador que muestra mis habilidades y pr
 - ![CSS](https://img.icons8.com/color/48/000000/css3.png) CSS
 - ![JavaScript](https://img.icons8.com/color/48/000000/javascript.png) JavaScript
 - ![React](https://img.icons8.com/color/48/000000/react-native.png) React
-- ![Node.js](https://img.icons8.com/color/48/000000/nodejs.png) Node.js
-- ![MongoDB](https://img.icons8.com/color/48/000000/mongodb.png) MongoDB
+- ![Vite](https://img.icons8.com/ios-filled/50/000000/vite.png) Vite
+- ![Firebase](https://img.icons8.com/color/48/000000/firebase.png) Firebase
 
 ## 📝 Instalación
 1. Clona el repositorio:

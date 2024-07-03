@@ -5,10 +5,13 @@
 | **Descripción**     | Página web desarrollada para [Nombre del proyecto], que ofrece [breve descripción de lo que ofrece].                                                             |
 | **URL**             | [Link a la página web](https://developercesarmontilla.netlify.app/)                                                                                             |
 | **Instalación**     | Clona el repositorio utilizando `git clone https://github.com/tu-usuario/tu-proyecto.git`                                                                        |
-| **Tecnologías**     | HTML, CSS, JavaScript, Firebase                                                                                                                                  |
+| **Tecnologías**     | HTML, CSS, JavaScript, Firebase, Reactjs, Vite                                                                                                                                 |
 | **Uso**             | - Navega por las diferentes secciones de la página web.                                                                                                          |
 |                     | - Utiliza las funciones de [funcionalidad clave].                                                                                                                |
-| **Características** | - [Lista de características destacadas].                                                                                                                        |
+| **Características** | - - Portafolio interactivo con detalles de proyectos.
+- Blog con artículos técnicos y actualizaciones.
+- Sección de habilidades con una lista de tecnologías dominadas.
+- Formulario de contacto para comunicación directa.].                                                                                                                        |
 | **Capturas de Pantalla** | ![Captura de pantalla 1](ruta/a/imagen1.png)                                                                                                                   |
 |                         | ![Captura de pantalla 2](ruta/a/imagen2.png)                                                                                                                   |
 | **Contribución**    | Si quieres contribuir, sigue las pautas en [CONTRIBUTING.md](link/a/contributing.md).                                                                           |

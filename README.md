@@ -9,7 +9,7 @@ Este proyecto es un portafolio de desarrollador que muestra mis habilidades y pr
 - ![JavaScript](https://img.icons8.com/color/48/000000/javascript.png) JavaScript
 - ![React](https://img.icons8.com/color/48/000000/react-native.png) React
 - ![Firebase](https://img.icons8.com/color/48/000000/firebase.png) Firebase
-<img src="https://vitejs.dev/logo.svg" alt="Vite Logo" width="50">
+- ![<img src="https://vitejs.dev/logo.svg" alt="Vite Logo" width="50"> Vite
 
 
 ## 📝 Instalación

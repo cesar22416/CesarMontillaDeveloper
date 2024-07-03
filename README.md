@@ -52,15 +52,15 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ## 👤 Autor
 **César Montilla**
-- <a href="https://www.linkedin.com/in/cesar-montilla/" style="text-decoration: none; color: #0077B5;">
+- <a href="https://www.linkedin.com/in/cesar-montilla/" style="text-decoration: none; color: #35FFA8;">
   <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" width="30" style="vertical-align: middle;" /> LinkedIn
 </a>
 
-- <a href="https://github.com/cesar22416" style="text-decoration: none; color: #000;">
+- <a href="https://github.com/cesar22416" style="text-decoration: none; color:#35FFA8;">
   <img src="https://img.icons8.com/ios-filled/50/000000/github.png" width="30" style="vertical-align: middle;" /> GitHub
 </a>
 
-- <a href="https://www.cesarmontilla.com" style="text-decoration: none; color: #4CAF50;">
+- <a href="https://www.cesarmontilla.com" style="text-decoration: none; color:#35FFA8;">
   <img src="https://img.icons8.com/ios-filled/50/000000/domain.png" width="30" style="vertical-align: middle;" /> Portafolio
 </a>
 

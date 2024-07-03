@@ -61,6 +61,6 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 </a>
 
 - <a href="https://www.cesarmontilla.com" style="text-decoration: none; color:#35FFA8;">
-  <img src="https://img.icons8.com/ios-filled/50/000000/domain.png" width="30" style="vertical-align: middle;" /> Portafolio
+  <img src="https://img.icons8.com/ios-filled/50/000000/domain.png" width="30" style="vertical-align: middle; color:#35FFA8 " /> Portafolio
 </a>
 

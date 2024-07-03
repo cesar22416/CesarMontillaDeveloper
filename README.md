@@ -15,7 +15,7 @@
 | **Capturas de Pantalla** | ![Captura de pantalla 1](ruta/a/imagen1.png)                                                                                                                   |
 |                         | ![Captura de pantalla 2](ruta/a/imagen2.png)                                                                                                                   |
 | **Contribución**    | Si quieres contribuir, sigue las pautas en [CONTRIBUTING.md](link/a/contributing.md).                                                                           |
-| **Autor**           | Desarrollado por [Tu Nombre].                                                                                                                                   |
+| **Autor**           | Desarrollado por [Cesar Montilla].                                                                                                                                   |
 | **Licencia**        | Este proyecto está bajo la licencia [Nombre de la licencia].                                                                                                     |
 | **Iconos**          | Usa iconos de <i class="fab fa-font-awesome"></i> [Font Awesome](https://fontawesome.com/icons?d=gallery&m=free), <i class="material-icons">face</i> [Material Icons](https://material.io/resources/icons/), o iconos SVG personalizados. |
 

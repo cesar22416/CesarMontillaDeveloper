@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './skill.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import SkillLenguajes from './SkillLenguajes';
 
 const Skill = () => {
   const skills = [
@@ -36,13 +37,18 @@ const Skill = () => {
       description: "Illustrator skilled in creating captivating and expressive illustrations for various purposes, including digital media, print, and marketing materials."
     }
   ];
+
   return (
-    <div className='container mt-5'>
-       
+    <div className='container mt-5 skillLenguajes'>
+       <h1 className='tituloSkill'>Skill</h1>
+       <SkillLenguajes />
       <div className="row">
-      <h1 className='tituloSkill'>Skill </h1>
+       
+      </div>
+
+      <div className="row"> {/* Fila para los otros skills */}
         {skills.map((skill, index) => (
-          <div key={index} className=" col-lg-4 col-md-6 mb-4">
+          <div key={index} className="col-lg-4 col-md-6 mb-4">
             <div className="card h-100">
               <div className="card-body">
                 <i className={`bi ${skill.icon} imgskill`}></i>

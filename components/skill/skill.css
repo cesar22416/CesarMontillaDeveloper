@@ -21,3 +21,54 @@
 .card,i,h5,p{
     color: black;
 }
+
+.skillLenguajes{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.skill-lenguajes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los contenedores */
+  }
+  
+  .skill-lenguajes-card {
+    border-radius: 50%; /* Hace el contenedor circular */
+    overflow: hidden; /* Asegura que el contenido no se salga */
+    width: 12%; /* Ancho del 12% */
+    height: 120px; /* Ajusta la altura según necesites */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px; /* Espaciado entre los contenedores */
+    color: #35FFA8;
+  }
+  
+  .imgskill {
+    font-size: 40px; /* Tamaño del icono */
+    margin-bottom: 10px; /* Espacio entre el icono y el título */
+  }
+
+  @media (max-width:400px) {
+    .skill-lenguajes-container {
+      
+      display: block; /* Cambia a bloque para mostrar como lista */
+    }
+    
+    .skill-lenguajes-card {
+      width: auto; /* Quita el ancho fijo para que se ajuste como lista */
+      border-radius: 0; /* Opcional: quita el borde circular */
+      margin: 5px 0; /* Espaciado vertical entre elementos de lista */
+    }
+    
+  }
+  
+  @media (max-width:1000px) {
+    .card-title {
+        display: none; /* Oculta el título en pantallas menores de 900px */
+      }
+  }
